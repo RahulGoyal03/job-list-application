@@ -31,14 +31,16 @@ export const Login = () => {
                     toast({
                         title: 'Login Successful',
                         status: 'success',
-                        duration: 9000,
+                        duration: 5000,
+                        position: 'top',
                         isClosable: true,
                     })
                 } else {
                     toast({
                         title: 'Invalid Details',
                         status: 'error',
-                        duration: 9000,
+                        duration: 5000,
+                        position: 'top',
                         isClosable: true,
                     })
                 }
