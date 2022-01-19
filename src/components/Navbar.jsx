@@ -21,7 +21,7 @@ export const Navbar = () => {
                         <Button
                             onClick={!token ? () => { handleToken("") } : undefined}
                             mr={4}
-                            colorScheme={'telegram'}
+                            colorScheme={'orange'}
                         >
                             {!token ? "Login" : "Logout"}
                         </Button>
