@@ -15,8 +15,8 @@ export const Navbar = () => {
                 </Center>
                 <Spacer />
                 <Center>
-                    <Button mr={2} colorScheme={'telegram'}><Link to={'/'}>Home</Link></Button>
-                    <Button mr={2} colorScheme={'telegram'}><Link to={'/dashboard'}>Dashboard</Link></Button>
+                    <Button mr={2} colorScheme={'orange'}><Link to={'/'}>Home</Link></Button>
+                    <Button mr={2} colorScheme={'orange'}><Link to={'/dashboard'}>Dashboard</Link></Button>
                     <Link to={'/login'}>
                         <Button
                             onClick={!token ? () => { handleToken("") } : undefined}
