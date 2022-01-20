@@ -69,7 +69,7 @@ export const Home = () => {
                         </Table>
 
                         <Badge m={'15px 25px'} colorScheme={jobType === "Remote" ? 'green' : 'purple'}>{jobType}</Badge> <br />
-                        <Button size='md' colorScheme={'orange'} w={'100%'}>Apply</Button>
+                        <Button size='md' colorScheme={'telegram'} w={'100%'}>Apply</Button>
                     </Box>
                 ))}
             </SimpleGrid>
