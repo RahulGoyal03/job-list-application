@@ -57,7 +57,7 @@ export const Login = () => {
                     <Heading mb={3}>Login</Heading>
                     <Input onChange={handleChange} type='email' placeholder="Email" />
                     <Input onChange={handleChange} type='password' placeholder="Password" />
-                    <Button type="submit" w={'100%'} colorScheme={'gray'}>Submit</Button>
+                    <Button type="submit" w={'100%'} colorScheme={'orange'}>Submit</Button>
                 </VStack>
             </form>
         </Container>
