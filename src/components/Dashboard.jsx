@@ -66,7 +66,7 @@ export const Dashboard = () => {
                             <option value='Remote'>Remote</option>
                             <option value='Office'>Office</option>
                         </Select>
-                        <Button w={'100%'} colorScheme={'telegram'} type="submit">Submit</Button>
+                        <Button w={'100%'} colorScheme={'orange'} type="submit">Submit</Button>
                     </VStack>
                 </form>
             </Container>
